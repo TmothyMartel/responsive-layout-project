@@ -164,17 +164,24 @@ Media Queries
 		margin: auto;
 	}
 
+	.main-nav,
+	.name {
+	  background: #fafafa;
+	}
+
   .main-nav {
     float: right;
   }
 
+  .main-nav a {
+		padding: 10px;
+	}
+	
   .main-nav li {
 		display: inline-block;
 		margin-left: 15px;
 		font-size: 1.45em;
 		font-weight: bold;
-		background: #fafafa;
-
 	}
 
   .tagline {
